@@ -1,9 +1,9 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Views/Site1.Master" AutoEventWireup="true" CodeBehind="LoanBook.aspx.cs" Inherits="Raamen.Views.LoanBook" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Views/Site1.Master" AutoEventWireup="true" CodeBehind="BorrowBook.aspx.cs" Inherits="Raamen.Views.LoanBook" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div>
-        <asp:Label ID="Labelitemname" runat="server" Text="Book Name"></asp:Label>
+        <asp:Label ID="Labelitemname" runat="server" Text="Judul Buku"></asp:Label>
             <br />
            <asp:TextBox ID="itemnameTxt" runat="server"></asp:TextBox>
             <br />
@@ -74,7 +74,7 @@
                 <br />
               </div>
                   <div>
-                      <asp:Button ID="BtnSubmit" runat="server" Text="Submit" />
+                      <asp:Button ID="BtnSubmit" runat="server" Text="Submit" OnClick="BtnSubmit_Click" />
 
                   </div>
 </asp:Content>

@@ -17,7 +17,7 @@ namespace Raamen.Views
 
         protected void NewBtn_Click(object sender, EventArgs e)
         {
-            Response.Redirect("~/Views/AddRamen.aspx");
+            Response.Redirect("~/Views/AddBook.aspx");
         }
 
         protected void Unnamed1_RowDeleting(object sender, GridViewDeleteEventArgs e)
@@ -27,5 +27,7 @@ namespace Raamen.Views
             del.deleteRamen(Convert.ToInt32(row.Cells[0].Text));
             Response.Redirect("../Views/Home.aspx");
         }
+
+        
     }
 }

@@ -6,7 +6,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace Raamen.Views
+namespace LibraryApp.Views
 {
     public partial class AddRamen : System.Web.UI.Page
     {
@@ -31,6 +31,11 @@ namespace Raamen.Views
                 PriceTxt.Text,
                 Convert.ToInt32(DropDownMeat.SelectedValue)
                 );
+            Response.Redirect("~/Views/Home.aspx");
+        }
+
+        protected void ButtonBack_Click(object sender, EventArgs e)
+        {
             Response.Redirect("~/Views/Home.aspx");
         }
     }

@@ -3,7 +3,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div>
-        <asp:GridView ID="GridRamen" runat="server" AutoGenerateColumns="False" DataKeyNames="Id" DataSourceID="SqlDataSource1" OnRowDeleting="Unnamed1_RowDeleting">
+        <asp:GridView ID="GridRamen" runat="server" AutoGenerateColumns="False" DataKeyNames="Id" DataSourceID="SqlDataSource1" OnRowDeleting="Unnamed1_RowDeleting" OnSelectedIndexChanged="GridRamen_SelectedIndexChanged">
             <Columns>
                 <asp:BoundField DataField="Id" HeaderText="Id" InsertVisible="False" ReadOnly="True" SortExpression="Id" />
                 <asp:BoundField DataField="Name" HeaderText="Name" SortExpression="Name" />
@@ -15,5 +15,5 @@
         </asp:GridView>
         <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="SELECT * FROM [Ramen]"></asp:SqlDataSource>
     </div>
-    <asp:Button ID="NewBtn" runat="server" Text="New Ramen" OnClick="NewBtn_Click" Width="447px" />
+    <asp:Button ID="NewBtn" runat="server" Text="Add New Book" OnClick="NewBtn_Click" Width="447px" />
 </asp:Content>

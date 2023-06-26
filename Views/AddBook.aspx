@@ -37,13 +37,18 @@
                     <asp:RequiredFieldValidator ErrorMessage="Cannot be empty" ControlToValidate="PenerbitTxt"
                      runat="server" ForeColor="Red" Font-Italic="true" />
                 </div>
-                 </div>
-            
+                </div>
+                <div >
+                    <asp:Label ID="DetailLbl" runat="server" Text="Detail"></asp:Label> 
+                    <br />
+                    <asp:TextBox ID="DetailTxt" runat="server" Height="75px"></asp:TextBox>
+                    <br />
+                </div>
       
-            </div>
+            <br />
             <asp:Button ID="SubmitBtn" OnClick="SubmitBtn_Click" runat="server" Text="Submit"/>
         
     <br />
-    <asp:Button ID="ButtonBack" runat="server" Text="Back to Home Page" />
+    <asp:Button ID="ButtonBack" runat="server" Text="Back to Home Page" OnClick="ButtonBack_Click" />
     </div>
 </asp:Content>

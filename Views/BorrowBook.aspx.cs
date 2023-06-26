@@ -13,5 +13,10 @@ namespace Raamen.Views
         {
 
         }
+
+        protected void BtnSubmit_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("~/Views/Home.aspx")
+        }
     }
 }

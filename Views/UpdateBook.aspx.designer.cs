@@ -33,76 +33,58 @@ namespace Raamen.Views
         protected global::System.Web.UI.WebControls.TextBox itemnameTxt;
 
         /// <summary>
-        /// itemnameValidator control.
+        /// LblKodeBuku control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RegularExpressionValidator itemnameValidator;
+        protected global::System.Web.UI.WebControls.Label LblKodeBuku;
 
         /// <summary>
-        /// LabelBroth control.
+        /// Txtkodebuku control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LabelBroth;
+        protected global::System.Web.UI.WebControls.TextBox Txtkodebuku;
 
         /// <summary>
-        /// brothTxt control.
+        /// LblPengarang control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox brothTxt;
+        protected global::System.Web.UI.WebControls.Label LblPengarang;
 
         /// <summary>
-        /// LabelPrice control.
+        /// TxtPengarang control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LabelPrice;
+        protected global::System.Web.UI.WebControls.TextBox TxtPengarang;
 
         /// <summary>
-        /// PriceTxt control.
+        /// LblPenerbit control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox PriceTxt;
+        protected global::System.Web.UI.WebControls.Label LblPenerbit;
 
         /// <summary>
-        /// Pricevalidator control.
+        /// PenerbitTxt control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CompareValidator Pricevalidator;
-
-        /// <summary>
-        /// LabelMeat control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LabelMeat;
-
-        /// <summary>
-        /// DropDownMeat control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownMeat;
+        protected global::System.Web.UI.WebControls.TextBox PenerbitTxt;
 
         /// <summary>
         /// SubmitBtn control.
