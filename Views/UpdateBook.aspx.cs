@@ -11,7 +11,7 @@ namespace Raamen.Views
 {
     public partial class UpdateRamen : System.Web.UI.Page
     {
-        RamenRepository rr = new RamenRepository();
+        BookRepository rr = new BookRepository();
         protected void Page_Load(object sender, EventArgs e)
         {
             if (Session["User"] == null)
@@ -43,7 +43,7 @@ namespace Raamen.Views
 
         protected void SubmitBtn_Click(object sender, EventArgs e)
         {
-            RamenRepository rp = new RamenRepository();
+            BookRepository rp = new BookRepository();
             rp.updateRamen(
                 Convert.ToInt32(Request["ID"]),
                 itemnameTxt.Text,

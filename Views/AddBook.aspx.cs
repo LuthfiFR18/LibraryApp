@@ -24,7 +24,7 @@ namespace LibraryApp.Views
         }
         protected void SubmitBtn_Click(object sender, EventArgs e)
         {
-            RamenRepository rp = new RamenRepository();
+            BookRepository rp = new BookRepository();
             rp.InsertRamen(
                 itemnameTxt.Text,
                 brothTxt.Text,

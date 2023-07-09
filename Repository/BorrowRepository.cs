@@ -6,7 +6,7 @@ using System.Web;
 
 namespace Raamen.Repository
 {
-    public class RoleRepository
+    public class BorrowRepository
     {
         Database1Entities db = new Database1Entities();
         public List<Role> getRole()

@@ -19,7 +19,7 @@ namespace Raamen.Views
         protected void LoginBtn_Click(object sender, EventArgs e)
         {
             UserRepository u = new UserRepository();
-            RoleRepository r = new RoleRepository();
+            BorrowRepository r = new BorrowRepository();
 
             User a = u.checkUser(TbUsername.Text, TbPassword.Text);
             if (a != null)

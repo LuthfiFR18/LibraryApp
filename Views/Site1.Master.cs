@@ -11,7 +11,7 @@ namespace Raamen.Views
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (Session["userRole"] != null)
+            /*if (Session["userRole"] != null)
             {
                 UpdateBtn.Visible = true;
                 RegisterBtn.Visible = false;
@@ -83,6 +83,6 @@ namespace Raamen.Views
         protected void ManageBtn_Click(object sender, EventArgs e)
         {
             Response.Redirect("~/Views/ManageRamen.aspx");
-        }
+        }*/
     }
 }

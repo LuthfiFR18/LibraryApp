@@ -23,7 +23,7 @@ namespace Raamen.Views
         protected void Unnamed1_RowDeleting(object sender, GridViewDeleteEventArgs e)
         {
             GridViewRow row = GridRamen.Rows[e.RowIndex];
-            RamenRepository del = new RamenRepository();
+            BookRepository del = new BookRepository();
             del.deleteRamen(Convert.ToInt32(row.Cells[0].Text));
             Response.Redirect("../Views/Home.aspx");
         }

@@ -7,11 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Raamen.Views
+namespace LibraryApp.Views
 {
 
 
-    public partial class WebForm5
+    public partial class ManageBook
     {
 
         /// <summary>

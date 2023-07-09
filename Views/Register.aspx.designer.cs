@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Raamen.Views
+namespace LibraryApp.Views
 {
 
 

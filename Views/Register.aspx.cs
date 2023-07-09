@@ -19,7 +19,7 @@ namespace Raamen.Views
             {
                 
             }
-            RoleRepository rp = new RoleRepository();
+            BorrowRepository rp = new BorrowRepository();
             DropDownList1.DataSource = rp.getRole();
             DropDownList1.DataTextField = "name";
             DropDownList1.DataValueField = "id";

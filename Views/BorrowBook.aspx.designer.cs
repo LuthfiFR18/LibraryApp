@@ -7,11 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Raamen.Views
+namespace LibraryApp.Views
 {
 
 
-    public partial class LoanBook
+    public partial class BorrowBook
     {
 
         /// <summary>
